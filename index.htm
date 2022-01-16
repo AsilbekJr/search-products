@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-header">Find Your Product From Here!</h1>
+      <div class="search-section">
+        <i class="fas fa-search"></i>
+        <form onsubmit="return false">
+          <input onkeyup="search()" type="text" class="search-input" placeholder="Search ..." />
+        </form>
+      </div>
+      <ul class="card-link">
+        <li class="active" data-filter="all">All</li>
+        <li data-filter="Drinks">Drinks</li>
+        <li data-filter="Fruts">Fruts</li>
+        <li data-filter="Meats">Meats</li>
+        <li data-filter="Spices">Spices</li>
+        <li data-filter="Vegetables">Vegetables</li>
+      </ul>
+      <div class="cards-section">
+       <!--  <div class="card">
+          <img src="/img/drink1.jpg" alt="" />
+          <div class="details">
+            <div class="type">
+                <p class="name">Coca Cola</p>
+                <p class="type-text">Drink</p>
+            </div>
+            <p class="info">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet sint nobis sed harum obcaecati ullam quaerat laboriosam cum dolorem pariatur similique.
+            </p>
+            <div class="bottom">
+              <div class="prise">5$</div>
+              <button class="btn">Buy</button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
